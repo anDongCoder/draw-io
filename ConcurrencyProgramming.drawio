@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T01:48:39.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Pjlw0hk0YLQnBANIMnlU" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T08:59:01.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3gI7JnZm_zcUaDBTt5RD" version="14.9.8" type="github">
   <diagram id="6KBRONOmCoXqspjVK2pf" name="Page-1">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
         <mxCell id="VRPAzlezHm_OflZ-1Tyc-13" value="对象&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-250" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VRPAzlezHm_OflZ-1Tyc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-14" target="VRPAzlezHm_OflZ-1Tyc-11">
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-14" target="VRPAzlezHm_OflZ-1Tyc-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VRPAzlezHm_OflZ-1Tyc-22" value="Exit后通知，出队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-21">
@@ -199,6 +199,117 @@
         </mxCell>
         <mxCell id="VRPAzlezHm_OflZ-1Tyc-25" value="" style="line;strokeWidth=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="-760" y="995" width="1110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-27" value="Wait notify&lt;br&gt;运行过程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-28" target="VRPAzlezHm_OflZ-1Tyc-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-35" value="Enter成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-34">
+          <mxGeometry x="-0.3833" y="-2" relative="1" as="geometry">
+            <mxPoint x="54" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-28" target="VRPAzlezHm_OflZ-1Tyc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-41" value="Enter失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-40">
+          <mxGeometry x="0.1466" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=15;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-28" target="VRPAzlezHm_OflZ-1Tyc-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-390" y="1140" />
+              <mxPoint x="-148" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-51" value="Enter成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-50">
+          <mxGeometry x="0.0154" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-28" value="监视器&lt;br&gt;Monitor" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#B3FF66;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-29" value="&lt;span style=&quot;background-color: rgb(230 , 255 , 204)&quot;&gt;Monitor.Enter&lt;/span&gt;" style="endArrow=classic;html=1;fontSize=15;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-32" target="VRPAzlezHm_OflZ-1Tyc-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-660" y="1230" as="sourcePoint" />
+            <mxPoint x="-680" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-32" value="&lt;span&gt;WaitThread&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=15;fontColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1215" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-37" value="Monitor.Exit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-36">
+          <mxGeometry x="-0.1833" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-33" target="VRPAzlezHm_OflZ-1Tyc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-43" value="Object.wait()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-42">
+          <mxGeometry x="-0.4498" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-33" value="对象&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-178.37" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-38" target="VRPAzlezHm_OflZ-1Tyc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-46" value="Exit后通知，出队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-45">
+          <mxGeometry x="-0.1527" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-38" value="同步队列&lt;br&gt;SynchronizedQueue" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-503" y="1360" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-39" target="VRPAzlezHm_OflZ-1Tyc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-39" value="等待队列&lt;br&gt;WaitQueue" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="-503" y="1470" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;dashed=1;strokeWidth=2;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-47" target="VRPAzlezHm_OflZ-1Tyc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-49" value="Monitor.Enter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-48">
+          <mxGeometry x="-0.3745" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-47" value="&lt;span&gt;NotifyThread&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=15;fontColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1126" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontSize=15;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" source="VRPAzlezHm_OflZ-1Tyc-33" target="VRPAzlezHm_OflZ-1Tyc-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-88" y="1170" />
+              <mxPoint x="-90" y="1170" />
+              <mxPoint x="-90" y="1140" />
+              <mxPoint x="50" y="1140" />
+              <mxPoint x="50" y="1215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRPAzlezHm_OflZ-1Tyc-53" value="&lt;div style=&quot;&quot;&gt;Object.notify&lt;/div&gt;Object.notifyAll()" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;labelBackgroundColor=#E6FFCC;" vertex="1" connectable="0" parent="VRPAzlezHm_OflZ-1Tyc-52">
+          <mxGeometry x="-0.1755" y="3" relative="1" as="geometry">
+            <mxPoint x="-95" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
