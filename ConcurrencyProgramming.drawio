@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T10:17:14.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="apKAPBL4jzBJ6RI_G_y6" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T10:18:02.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="o-DZiOlC0BrkF3-0qIsv" version="15.1.0" type="github">
   <diagram id="6KBRONOmCoXqspjVK2pf" name="Page-1">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,7 +362,7 @@
           <mxGeometry x="-760" y="2921" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VRPAzlezHm_OflZ-1Tyc-71" value="" style="line;strokeWidth=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="3396" width="1110" height="10" as="geometry" />
+          <mxGeometry x="-760" y="3355" width="1110" height="10" as="geometry" />
         </mxCell>
         <mxCell id="ze_FQJrBtCoRC8pZOpzj-4" value="&lt;h1&gt;软引用&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SoftReference&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;当堆内存不够时，清除软引用。 主要用于缓存&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-440" y="3000" width="270" height="152" as="geometry" />
@@ -466,7 +466,7 @@
           <mxGeometry x="-74" y="2559" width="480" height="198" as="geometry" />
         </mxCell>
         <mxCell id="f-2dCj2hSVrpgB3Mf1FE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="3401" width="120" height="60" as="geometry" />
+          <mxGeometry x="-760" y="3360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
