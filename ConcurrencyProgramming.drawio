@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T10:16:55.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="owFZKGfui95DcWj5qkEy" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T10:17:14.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="apKAPBL4jzBJ6RI_G_y6" version="15.1.0" type="github">
   <diagram id="6KBRONOmCoXqspjVK2pf" name="Page-1">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -365,16 +365,16 @@
           <mxGeometry x="-760" y="3396" width="1110" height="10" as="geometry" />
         </mxCell>
         <mxCell id="ze_FQJrBtCoRC8pZOpzj-4" value="&lt;h1&gt;软引用&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SoftReference&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;当堆内存不够时，清除软引用。 主要用于缓存&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="3000" width="270" height="152" as="geometry" />
+          <mxGeometry x="-440" y="3000" width="270" height="152" as="geometry" />
         </mxCell>
         <mxCell id="ze_FQJrBtCoRC8pZOpzj-5" value="&lt;h1&gt;强引用&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;只要对象被引用，就不能回收&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="3000" width="270" height="152" as="geometry" />
         </mxCell>
         <mxCell id="ze_FQJrBtCoRC8pZOpzj-6" value="&lt;h1&gt;弱引用&amp;nbsp; &amp;nbsp; &amp;nbsp; WeakReference&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;了解一下weakHashMap&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;ThreadLocal用到了弱引用&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="3210" width="270" height="152" as="geometry" />
+          <mxGeometry x="-760" y="3200" width="270" height="152" as="geometry" />
         </mxCell>
         <mxCell id="ze_FQJrBtCoRC8pZOpzj-7" value="&lt;h1&gt;虚引用&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;用于堆外内存的垃圾回收，监控queue回收垃圾。一般用不到&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="3210" width="270" height="152" as="geometry" />
+          <mxGeometry x="-440" y="3200" width="270" height="152" as="geometry" />
         </mxCell>
         <mxCell id="DpEA0Z9gG57qCJPRGOQZ-3" value="Thread-1&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;verticalAlign=top;fillColor=#CCFFFF;" parent="1" vertex="1">
           <mxGeometry x="-760" y="2020" width="326.37" height="290" as="geometry" />
