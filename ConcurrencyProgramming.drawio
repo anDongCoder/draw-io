@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T09:57:18.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="CdSlLlq1S5KK4P5wf8i_" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T10:07:22.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="CZR1udAfedlhDkVgMTub" version="15.1.0" type="github">
   <diagram id="6KBRONOmCoXqspjVK2pf" name="Page-1">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -730,7 +730,10 @@
           <mxGeometry x="-258.85" y="4520" width="128.85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zprYi-g9EWmisX-TClCo-27" value="线程被中断或&lt;br&gt;前驱节点被释放" style="text;html=1;align=left;verticalAlign=middle;rounded=0;fontSize=15;fillColor=#CCFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-306.63" y="4409" width="110" height="51" as="geometry" />
+          <mxGeometry x="-304.63" y="4409" width="106.63" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="zprYi-g9EWmisX-TClCo-33" value="CAS" style="ellipse;whiteSpace=wrap;html=1;dashed=1;fontSize=15;strokeColor=#000000;align=center;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="-519.63" y="4385" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
