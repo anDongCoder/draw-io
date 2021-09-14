@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T14:00:40.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="fcjsY1cwy6bKWBK_lxmk" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T14:02:06.377Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="o4PQaOg4a2q0sQBw-pZ5" version="15.1.0" type="github">
   <diagram id="6KBRONOmCoXqspjVK2pf" name="Page-1">
     <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
           <mxGeometry x="-519.63" y="4385" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wtRF51XbaKB4qOCfVT_h-1" value="独占式同步状态获取流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-598.85" y="4810" width="340" height="30" as="geometry" />
+          <mxGeometry x="-598.85" y="4795" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wtRF51XbaKB4qOCfVT_h-4" value="自旋过程" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fillColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="-523" y="4490" width="20" height="110" as="geometry" />
