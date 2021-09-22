@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T03:05:43.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="U-XS0N5zJhun0-Nz_9fx" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T07:06:28.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="LJkz-BbtC95wMHFXZwaP" version="15.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="80" y="310" width="120" height="40" as="geometry" />
+          <mxGeometry x="70" y="1250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry y="20" relative="1" as="geometry">
@@ -21,10 +21,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="400" width="100" height="80" as="geometry" />
+          <mxGeometry x="80" y="1340" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="240" y="420" width="120" height="40" as="geometry" />
+          <mxGeometry x="230" y="1360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
           <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
@@ -37,16 +37,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="520" width="100" height="80" as="geometry" />
+          <mxGeometry x="80" y="1460" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="80" y="660" width="120" height="40" as="geometry" />
+          <mxGeometry x="70" y="1600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="240" y="540" width="120" height="40" as="geometry" />
+          <mxGeometry x="230" y="1480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0eLvDJqD8OiNdp7uU_4w-1" value="同步：程序自己 R/W&lt;br&gt;异步：kernel完成R/W&amp;nbsp; 程序访问buffer (windows)&lt;br&gt;阻塞：&lt;br&gt;非阻塞：&lt;br&gt;&lt;br&gt;同步阻塞：程序自己读取，调用了方法一直等待有效返回&lt;br&gt;同步非阻塞：程序自己读取，调用方法立刻返回" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;fontSize=15;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="10" width="430" height="160" as="geometry" />
+          <mxGeometry x="40" y="40" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0eLvDJqD8OiNdp7uU_4w-3" value="多路复用器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="390" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0eLvDJqD8OiNdp7uU_4w-5" value="select" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-20" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0eLvDJqD8OiNdp7uU_4w-6" value="poll" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0eLvDJqD8OiNdp7uU_4w-7" value="epoll" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0eLvDJqD8OiNdp7uU_4w-8" value="无论 NIO SELECT POLL 都要遍历所有的IO，询问状态&lt;br&gt;&lt;br&gt;NIO: 程序自己遍历调用内核，用户态内核态切换频繁。&lt;br&gt;&lt;br&gt;多路复用器 select poll:&amp;nbsp; 触发一次系统调用进行批量查询，内核自己进行遍历查询。&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%90%8C%E6%AD%A5%EF%BC%9A%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%B7%B1%20R%2FW%26lt%3Bbr%26gt%3B%E5%BC%82%E6%AD%A5%EF%BC%9Akernel%E5%AE%8C%E6%88%90R%2FW%26amp%3Bnbsp%3B%20%E7%A8%8B%E5%BA%8F%E8%AE%BF%E9%97%AEbuffer%20(windows)%26lt%3Bbr%26gt%3B%E9%98%BB%E5%A1%9E%EF%BC%9A%26lt%3Bbr%26gt%3B%E9%9D%9E%E9%98%BB%E5%A1%9E%EF%BC%9A%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3B%E5%90%8C%E6%AD%A5%E9%98%BB%E5%A1%9E%EF%BC%9A%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%B7%B1%E8%AF%BB%E5%8F%96%EF%BC%8C%E8%B0%83%E7%94%A8%E4%BA%86%E6%96%B9%E6%B3%95%E4%B8%80%E7%9B%B4%E7%AD%89%E5%BE%85%E6%9C%89%E6%95%88%E8%BF%94%E5%9B%9E%26lt%3Bbr%26gt%3B%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%EF%BC%9A%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%B7%B1%E8%AF%BB%E5%8F%96%EF%BC%8C%E8%B0%83%E7%94%A8%E6%96%B9%E6%B3%95%E7%AB%8B%E5%88%BB%E8%BF%94%E5%9B%9E%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BstrokeColor%3D%23b85450%3Balign%3Dleft%3BfontSize%3D15%3BverticalAlign%3Dtop%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%2240%22%20width%3D%22430%22%20height%3D%22160%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=15;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="600" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0eLvDJqD8OiNdp7uU_4w-11" value="多路复用器 select poll 的弊端&lt;br&gt;1 每次都要重新，重复传递fds&lt;br&gt;2 每次内核被调用之后，触发一个遍历fds全量的复杂度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="810" width="410" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
