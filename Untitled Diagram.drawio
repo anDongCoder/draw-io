@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T09:16:51.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="6i2p-FL1bJ4Yu1q5BZDR" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T09:51:05.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="RrQYagnZNxYdgDiOdAbJ" version="15.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-8" value="集群1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-365" y="2020" width="605" height="740" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-8" value="集群1(共3个集群)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-365" y="1990" width="605" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-23" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-365" y="2020.5" width="605" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -69,62 +72,50 @@
         <mxCell id="0eLvDJqD8OiNdp7uU_4w-11" value="多路复用器 select poll 的弊端&lt;br&gt;1 每次都要重新，重复传递fds&lt;br&gt;2 每次内核被调用之后，触发一个遍历fds全量的复杂度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="810" width="410" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EfoNU9cNlIkB-AGb6Jq7-0" target="EfoNU9cNlIkB-AGb6Jq7-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-0" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-310" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-0" value="nginx&lt;br&gt;负载18台 网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-310" y="1880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-1" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-110" y="1880" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-1" value="nginx&lt;br&gt;负载3个集群 18台gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-133.75" y="1890" width="142.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfoNU9cNlIkB-AGb6Jq7-2" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="1880" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfoNU9cNlIkB-AGb6Jq7-3" value="集团硬负载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-110" y="1760" width="120" height="60" as="geometry" />
+          <mxGeometry x="-122.5" y="1754" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-4" value="www.dingtalk.xdf.cn" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-330" y="1640" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-5" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-5" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-340" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-6" value="gateway&lt;br&gt;单集群6台" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-122.5" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-6" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-200" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-7" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-7" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-60" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-13" value="teacher-client&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;登陆&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;日历-&amp;gt;课表-&amp;gt;正式课列表 || 磨课列表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;创建磨课&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;15台" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-37.5" y="2218.5" width="220" height="89.5" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-9" value="集群1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="2020" width="430" height="350" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-15" value="student-client&lt;br&gt;登陆&lt;br&gt;日历-&amp;gt;课表&lt;br&gt;15" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="2228" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-10" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="145" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-16" value="mdm&lt;br&gt;老师 学生 全集团课表" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-151.25" y="2130" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-11" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="285" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-18" value="洗课表数据(优能一对一课程)&lt;br&gt;xxljob&amp;nbsp; 后期升级为 集团kafka" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="2135" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-12" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="415" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-19" value="admin-plateform(教室内)&lt;br&gt;进入教室 / 下课&lt;br&gt;写笔记&lt;br&gt;加入自由课程(学生或者老师)&lt;br&gt;教师端拉题 学生端信令同步 学生端提交判断&lt;br&gt;20" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="2338" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-13" value="teacher-client&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;登陆&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;日历-&amp;gt;课表-&amp;gt;正式课列表 || 磨课列表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;创建磨课&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;20" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-350" y="2165" width="220" height="95" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-20" value="task&lt;br&gt;声网流----》腾讯云生成mp4 url存数据库" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="2480" width="235" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-15" value="student-client&lt;br&gt;登陆&lt;br&gt;日历-&amp;gt;课表&lt;br&gt;20" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-350" y="2280" width="220" height="80" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-22" value="eurek-server&lt;br&gt;6台" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-320" y="2130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-16" value="mdm&lt;br&gt;老师 学生 集团课表" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-55" y="2165" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-18" value="洗课表数据服务&lt;br&gt;xxljob 后期升级为kafka" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-75" y="2270" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-19" value="admin-plateform&lt;br&gt;进入教室 / 下课&lt;br&gt;写笔记&lt;br&gt;加入自由课程(学生或者老师)&lt;br&gt;教师端拉题 学生端信令同步 学生端提交判断" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-340" y="2380" width="320" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-20" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-340" y="2540" width="220" height="80" as="geometry" />
+        <mxCell id="EfoNU9cNlIkB-AGb6Jq7-26" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-87.5" y="1830" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
